@@ -3,8 +3,6 @@ import { createApi } from "@reduxjs/toolkit/query/react";
 import { setUser, clearUser } from "./authSlice";
 import { baseQueryWithReauth } from "../../app/baseQuery";
 
-
-
 export const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: baseQueryWithReauth,
